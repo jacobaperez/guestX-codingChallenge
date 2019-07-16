@@ -1,0 +1,24 @@
+There are a couple things I would need to clarify? Does a text/email notifiying the user
+that they need to check their account because it's urgent count as a paper trail?  
+If that is acceptable then we could use technologies like Confide which is a messaging application
+that prevents screenshots,recording, or capturing the message in most ways, then after the message
+has been opened it deletes itself.  This would be useful for notifiying a user that they need to check
+their account urgently. This is one possible solution.
+
+Additionally, we could set up a time with the user to check their account everyday like 12:00pm and 7:00pm, this way
+we can communicate everyday easily without any trouble and only need to account for absolutely urgent scenarios that 
+don't fit in these time windows.  If that's the case we could send a "code notification" like a weather report. 
+(i.e. If early enough in the day we send them a weather report for the day at 8:00am, 10:43am, etc... or the following days weather
+report if the time is later 8:00pm, 11:29pm, etc... to an outside observer these are meaningless and convey relatively useless information
+but to user they are instantly aware that they need to log in to their account as soon as possible)
+
+Lastly, I think the possibility of having a paper trail wouldn't be as harmful if we utilized simple technologies like PGP.
+We could send very secure emails encrypted with the users public key in which they could decrypt with their private keys, and 
+send information back via the same manner with the companies public key.  Granted, we do run the risk of having information exposed 
+if the private keys ever are found.  The possibility of true "hacking" in it's conventional sense would be very slim, however, 
+again this method could be hacked via social engineering to gain access to user's computer to gain personal keys. We could possibly
+combat this attack by having the user change their keys regularly (every 2 months). 
+
+These are the best solutions that I was able to come up with.  It was difficult, because I was trying to think of a way, in which I couldn't 
+successfully attack and I found that most ways were vulnerable via either screen shot or recording.  I hope these work haha, tough question!
+
